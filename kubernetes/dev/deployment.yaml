@@ -39,6 +39,7 @@ metadata:
 spec:
   selector:
     app: eatin-ms-documentation
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 3000
